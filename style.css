@@ -41,7 +41,20 @@ body {
     font-size: 4rem;
 }
 
+.img-credits {
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    bottom: 30px;
+}
 
+a {
+    color: white;
+}
+
+a:hover{
+    color: brown;
+}
 
 .image-sidebar > * {
     opacity: 1;
