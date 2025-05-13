@@ -35,17 +35,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
-    opacity: 0.6;
-    color: white;
-    top: 12rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 18rem;
     text-align: center;
     font-size: 4rem;
 }
 
+
+
 .image-sidebar > * {
+    opacity: 1;
     display: inline;
     margin: 10px 0px 10px 0px;
+    color: white;
 }
 
 img.sidebar-logo {
