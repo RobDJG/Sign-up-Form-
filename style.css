@@ -8,9 +8,7 @@
         url('fonts/Norse-Bold.svg#Norse') format('svg');
 }
 
-html {
-    font-family: "Norse";
-}
+
 
 body {
     height: 100vh;
@@ -43,13 +41,14 @@ body {
     top: 18rem;
     text-align: center;
     font-size: 4rem;
+    font-family: "Norse";
 }
 
 .img-credits {
     position: absolute;
     color: white;
     font-size: 1rem;
-    bottom: 30px;
+    bottom: 20px;
 }
 
 a {
@@ -111,7 +110,7 @@ img.sidebar-logo {
 
 .log-form {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    padding: 24px;
+    padding: 3rem;
     background-color: white;
     margin-bottom: 32px;
     border-radius: 8px;
