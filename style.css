@@ -45,11 +45,11 @@ body {
 
 .image-sidebar > * {
     display: inline;
-    
+    margin: 10px 0px 10px 0px;
 }
 
 img.sidebar-logo {
-    max-width: 20%;
+    max-width: 15%;
     height: auto;
 }
 
