@@ -7,7 +7,3 @@
          url('fonts/Norse-Bold.ttf')  format('truetype'),
          url('fonts/Norse-Bold.svg#Norse') format('svg');
 }
-
-h1 {
-    font-family: "Norse", Arial, Helvetica, sans-serif;
-}
