@@ -14,6 +14,7 @@ body {
     height: 100vh;
     display: flex;
     margin: 0;
+    font-family: "Roboto","Nunito Sans";
 }
 
 .image-section {
@@ -74,6 +75,7 @@ img.sidebar-logo {
 
 
 .log-section {
+    
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -108,7 +110,15 @@ img.sidebar-logo {
 
 }
 
+h3.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
 .log-form {
+
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -123,6 +133,7 @@ img.sidebar-logo {
 
 
 form {
+    
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -130,6 +141,7 @@ form {
 
 /*Select all form children*/
 form>* {
+    
     display: flex;
     flex: 1;
     gap: 4rem;
@@ -138,5 +150,7 @@ form>* {
 
 
 label {
+    padding-bottom: .1rem;
+    font-size: .7rem;
     display: block;
 }
