@@ -156,3 +156,12 @@ label {
     color: #333;
     font-weight: 500;
 }
+
+input{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
